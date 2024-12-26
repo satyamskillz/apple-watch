@@ -1,0 +1,395 @@
+[
+    {
+        "id": "appleWatchSeries10",
+        "name": "Apple Watch Series 10",
+        "defaultOption": {
+            "size": "46",
+            "case": "aluminum",
+            "caseVariant": "jetBlack",
+            "band": "soloLoop",
+            "bandVariant": "black"
+        },
+        "options": [
+            {
+                "id": "size",
+                "name": "Size",
+                "imageUrl": "/svg/size.svg",
+                "variants": [
+                    {
+                        "id": "42",
+                        "name": "42mm",
+                        "price": 300
+                    },
+                    {
+                        "id": "46",
+                        "name": "46mm",
+                        "price": 400
+                    }
+                ]
+            },
+            {
+                "id": "case",
+                "name": "Case",
+                "imageUrl": "/svg/case.svg",
+                "variants": [
+                    {
+                        "id": "aluminum",
+                        "name": "Aluminum",
+                        "variants": [
+                            {
+                                "id": "roseGold",
+                                "name": "Rose Gold",
+                                "price": 20
+                            },
+                            {
+                                "id": "jetBlack",
+                                "name": "Jet Black",
+                                "price": 20
+                            }
+                        ]
+                    },
+                    {
+                        "id": "titanium",
+                        "name": "Titanium",
+                        "variants": [
+                            {
+                                "id": "gold",
+                                "name": "Gold",
+                                "price": 320
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "band",
+                "name": "Band",
+                "imageUrl": "/svg/band.svg",
+                "variants": [
+                    {
+                        "id": "stainlessSteel",
+                        "name": "Stainless Steel",
+                        "variants": [
+                            {
+                                "id": "naturalMilaneseLoop",
+                                "name": "Natural Milanese Loop",
+                                "price": 49
+                            },
+                            {
+                                "id": "goldMilaneseLoop",
+                                "name": "Gold Milanese Loop",
+                                "price": 49
+                            },
+                            {
+                                "id": "naturalLinkBracelet",
+                                "name": "Natural Link Bracelet",
+                                "price": 49
+                            },
+                            {
+                                "id": "goldLinkBracelet",
+                                "name": "Gold Link Bracelet",
+                                "price": 49
+                            }
+                        ]
+                    },
+                    {
+                        "id": "sportLoop",
+                        "name": "Sport Loop",
+                        "variants": [
+                            {
+                                "id": "ultramarine",
+                                "name": "Ultramarine",
+                                "price": 39
+                            },
+                            {
+                                "id": "lakeGreen",
+                                "name": "Lake Green",
+                                "price": 39
+                            },
+                            {
+                                "id": "ink",
+                                "name": "Ink",
+                                "price": 39
+                            }
+                        ]
+                    },
+                    {
+                        "id": "sportBand",
+                        "name": "Sport Band",
+                        "variants": [
+                            {
+                                "id": "denim",
+                                "name": "Denim",
+                                "price": 39
+                            },
+                            {
+                                "id": "lakeGreen",
+                                "name": "Lake Green",
+                                "price": 39
+                            },
+                            {
+                                "id": "black",
+                                "name": "Black",
+                                "price": 39
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fineWoven",
+                        "name": "FineWoven",
+                        "variants": [
+                            {
+                                "id": "darkTaupeMagneticLink",
+                                "name": "Dark Taupe Magnetic Link",
+                                "price": 19
+                            },
+                            {
+                                "id": "blackberryMagneticLink",
+                                "name": "Blackberry Magnetic Link",
+                                "price": 19
+                            },
+                            {
+                                "id": "blackMagneticLink",
+                                "name": "Black Magnetic Link",
+                                "price": 19
+                            }
+                        ]
+                    },
+                    {
+                        "id": "braidedSoloLoop",
+                        "name": "Braided",
+                        "variants": [
+                            {
+                                "id": "denimBraided",
+                                "name": "Denim",
+                                "price": 19
+                            },
+                            {
+                                "id": "lakeGreenBraided",
+                                "name": "Green",
+                                "price": 19
+                            },
+                            {
+                                "id": "midnightBraided",
+                                "name": "Midnight",
+                                "price": 19
+                            }
+                        ]
+                    },
+                    {
+                        "id": "soloLoop",
+                        "name": "Solo Loop",
+                        "variants": [
+                            {
+                                "id": "starFruit",
+                                "name": "Star Fruit",
+                                "price": 29
+                            },
+                            {
+                                "id": "ultramarine",
+                                "name": "Ultramarine",
+                                "price": 29
+                            },
+                            {
+                                "id": "black",
+                                "name": "Black",
+                                "price": 29
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "appleWatchSE",
+        "name": "Apple Watch SE",
+        "defaultOption": {
+            "size": "44",
+            "case": "aluminum",
+            "caseVariant": "silver",
+            "band": "soloLoop",
+            "bandVariant": "starFruit"
+        },
+        "options": [
+            {
+                "id": "size",
+                "name": "Size",
+                "imageUrl": "/svg/size.svg",
+                "variants": [
+                    {
+                        "id": "40",
+                        "name": "40mm",
+                        "price": 200
+                    },
+                    {
+                        "id": "44",
+                        "name": "44mm",
+                        "price": 250
+                    }
+                ]
+            },
+            {
+                "id": "case",
+                "name": "Case",
+                "imageUrl": "/svg/case.svg",
+                "variants": [
+                    {
+                        "id": "aluminum",
+                        "name": "Aluminum",
+                        "variants": [
+                            {
+                                "id": "midnight",
+                                "name": "Midnight",
+                                "price": 0
+                            },
+                            {
+                                "id": "silver",
+                                "name": "Silver",
+                                "price": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "band",
+                "name": "Band",
+                "imageUrl": "/svg/band.svg",
+                "variants": [
+                    {
+                        "id": "stainlessSteel",
+                        "name": "Stainless Steel",
+                        "variants": [
+                            {
+                                "id": "naturalMilaneseLoop",
+                                "name": "Natural Milanese Loop",
+                                "price": 49
+                            },
+                            {
+                                "id": "goldMilaneseLoop",
+                                "name": "Gold Milanese Loop",
+                                "price": 49
+                            },
+                            {
+                                "id": "naturalLinkBracelet",
+                                "name": "Natural Link Bracelet",
+                                "price": 49
+                            },
+                            {
+                                "id": "goldLinkBracelet",
+                                "name": "Gold Link Bracelet",
+                                "price": 49
+                            }
+                        ]
+                    },
+                    {
+                        "id": "sportLoop",
+                        "name": "Sport Loop",
+                        "variants": [
+                            {
+                                "id": "ultramarine",
+                                "name": "Ultramarine",
+                                "price": 39
+                            },
+                            {
+                                "id": "lakeGreen",
+                                "name": "Lake Green",
+                                "price": 39
+                            },
+                            {
+                                "id": "ink",
+                                "name": "Ink",
+                                "price": 39
+                            }
+                        ]
+                    },
+                    {
+                        "id": "sportBand",
+                        "name": "Sport Band",
+                        "variants": [
+                            {
+                                "id": "denim",
+                                "name": "Denim",
+                                "price": 39
+                            },
+                            {
+                                "id": "lakeGreen",
+                                "name": "Lake Green",
+                                "price": 39
+                            },
+                            {
+                                "id": "black",
+                                "name": "Black",
+                                "price": 39
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fineWoven",
+                        "name": "FineWoven",
+                        "variants": [
+                            {
+                                "id": "darkTaupeMagneticLink",
+                                "name": "Dark Taupe Magnetic Link",
+                                "price": 19
+                            },
+                            {
+                                "id": "blackberryMagneticLink",
+                                "name": "Blackberry Magnetic Link",
+                                "price": 19
+                            },
+                            {
+                                "id": "blackMagneticLink",
+                                "name": "Black Magnetic Link",
+                                "price": 19
+                            }
+                        ]
+                    },
+                    {
+                        "id": "braidedSoloLoop",
+                        "name": "Braided",
+                        "variants": [
+                            {
+                                "id": "denimBraided",
+                                "name": "Denim",
+                                "price": 19
+                            },
+                            {
+                                "id": "lakeGreenBraided",
+                                "name": "Green",
+                                "price": 19
+                            },
+                            {
+                                "id": "midnightBraided",
+                                "name": "Midnight",
+                                "price": 19
+                            }
+                        ]
+                    },
+                    {
+                        "id": "soloLoop",
+                        "name": "Solo Loop",
+                        "variants": [
+                            {
+                                "id": "starFruit",
+                                "name": "Star Fruit",
+                                "price": 29
+                            },
+                            {
+                                "id": "ultramarine",
+                                "name": "Ultramarine",
+                                "price": 29
+                            },
+                            {
+                                "id": "black",
+                                "name": "Black",
+                                "price": 29
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

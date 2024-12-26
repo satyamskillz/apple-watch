@@ -1,0 +1,152 @@
+.custom-watch {
+	width: 100%;
+	user-select: none;
+
+	.splide__arrow {
+		width: 36px;
+		height: 36px;
+		margin-top: -15px;
+
+		background: var(--ds-paddlenav-background);
+
+		&:hover {
+			background: var(--ds-paddlenav-background-hover);
+		}
+		&:active {
+			background: var(--ds-paddlenav-background-active);
+		}
+
+		&.splide__arrow--prev {
+			left: 1.5rem;
+
+			img {
+				transform: rotate(180deg);
+			}
+		}
+
+		&.splide__arrow--next {
+			right: 1.5rem;
+		}
+
+		&:disabled {
+			opacity: 0;
+		}
+	}
+
+	.size-slider {
+		.size-slide {
+			overflow: hidden;
+
+			&[data-side-active="true"] {
+				// margin-inline: 2rem;
+				.watch-ctn {
+					opacity: 0;
+					width: 408px;
+				}
+			}
+
+			.watch-ctn {
+				display: flex;
+				position: relative;
+				justify-content: center;
+
+				.band-img {
+					width: 52vh;
+					aspect-ratio: 1;
+					height: auto;
+				}
+
+				.case-img {
+					width: 52vh;
+					aspect-ratio: 1;
+					height: auto;
+					top: 0;
+					position: absolute;
+				}
+			}
+		}
+	}
+
+	.case-slider {
+		position: relative;
+		.band-img {
+			width: 52vh;
+			aspect-ratio: 1;
+			height: auto;
+
+			top: 0;
+			left: 50%;
+			z-index: 0;
+			position: absolute;
+			transform: translateX(-50%);
+		}
+
+		.case-track {
+			z-index: 1;
+		}
+
+		.case-slide {
+			overflow: hidden;
+
+			&[data-side-active="true"] {
+				// margin-inline: 2rem;
+				.case-ctn {
+					opacity: 0;
+					width: 408px;
+				}
+			}
+
+			.case-ctn {
+				width: 306px;
+				position: relative;
+				display: flex;
+				justify-content: center;
+
+				.case-img {
+					width: 52vh;
+					aspect-ratio: 1;
+					height: auto;
+				}
+			}
+		}
+	}
+
+	.band-slider {
+		position: relative;
+		.case-img {
+			width: 52vh;
+			aspect-ratio: 1;
+			height: auto;
+
+			top: 0;
+			left: 50%;
+			position: absolute;
+			transform: translateX(-50%);
+		}
+
+		.band-slide {
+			overflow: hidden;
+
+			&[data-side-active="true"] {
+				// margin-inline: 2rem;
+				.band-ctn {
+					opacity: 0;
+					width: 408px;
+				}
+			}
+
+			.band-ctn {
+				width: 306px;
+				display: flex;
+				position: relative;
+				justify-content: center;
+
+				.band-img {
+					width: 52vh;
+					aspect-ratio: 1;
+					height: auto;
+				}
+			}
+		}
+	}
+}
